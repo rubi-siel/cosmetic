@@ -1,0 +1,27 @@
+.banner{
+    height: 610px;
+    background-image: url("../../assets/images/banner.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.banner-content h2{
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 70px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.banner-content p{
+    color: #999999;
+    margin-bottom: 25px;
+}
+.search-form{
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.btn{
+    margin-bottom: 40px;
+}

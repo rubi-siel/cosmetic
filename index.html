@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <article class="article">
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/Dudeshape logo.png" alt="logo"/>
+                    </a>
+                    <ul class="nav-menu">
+                        <li class="menu__item">
+                            <a href="#">Home</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#">Products</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#">About Us</a>
+                        </li>
+
+                        <li class="menu__item">
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="icons">
+                        <div class="profile">
+                            <img src="./assets/images/icon-Profile.png" alt="profile image">
+                           
+                        </div>
+                        <div class="cart">
+                            
+                            <img src="./assets/svg/cart.svg" alt="cart image"/>
+                        </div>
+                        
+                        <div class="menu">
+                            <div class="menu-line"></div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <section class="banner">
+            <div class="container">
+                <div class="banner-content">
+                    <h2>Get Your Best Cosmetic Products Here</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, maiores dolorum 
+                       nulla fuga provident explicabo quas sunt dolor alias, assumenda magnam? Repudiandae provident sunt minus!</p>
+
+                       <form class="search-form">
+                        <input
+                         class="search-form--input"
+                          type="text"
+                           placeholder="Search..."/>
+                         <button type="submit" class="search-form--btn">
+                            <img src="./assets/svg/search.svg" alt="search image"/>
+                         </button>
+                    </form>
+                    <button class="btn">Shop Now</button>
+                </div>
+            </div> 
+        </section>
+        <div class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </article>
+
+    <main>
+        <section class="scroll">
+            <div class="container">
+                <div class="logos">
+                    <div class="logos-slide">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="product">
+            <div class="container">
+                <div class="product-top">
+                    <div class="product-top-content">
+                        <h3>Our Popular Product</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, recusandae. ipsum dolor sit amet consectetur adipisicing elit. Soluta ad ullam illo porro ipsum harum.</p>
+                    </div>
+                    <a class="product-top-link" href="#">
+                        <span>Discover Our Products</span>
+                        <img src="./assets/svg/product.svg" alt="product icon"/>
+                    </a>
+                </div>
+                <div class="product-bottom">
+                    <div class="card">
+                        <img src="./assets/images/w.jfif"
+                         alt="product image"/>
+
+                         <div class="card-content">
+                            <h2>Cosmetic products</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus beatae eaque modi voluptas hic neque ipsam non
+                                 repellendus quas molestias voluptate officiis excepturi distinctio quod nulla laboriosam, ab quia quam quisquam iure 
+                                 exercitationem? Porro, eaque?
+
+                            </p>
+
+                            <div class="card-content-action">
+
+                                <div class="card-content-button">
+                                    <button class="btn">Buy Now</button>
+                                    <button class="btn btn-border2">Add To Cart</button>
+                                </div>
+                                <span>120 $</span>
+                            </div>
+
+                         </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/ww.png" alt="product-image">
+                        <div class="card-content">
+                            <h2>Cosmetic Products</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, quo.
+                                 ipsum, dolor sit amet consectetur adipisicing elit.
+                                 Ea, culpa tempore. Maxime fugiat aperiam et excepturi, enim nam ratione id ex quam sint laborum repellat?</p>
+                                 <div class="card-content-action">
+                                    <div class="card-content-button">
+                                        <button class="btn">Buy Now</button>
+                                        <button class="btn-border">Add To Cart</button>
+                                    </div>
+                                    <span>120 $</span>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+   
+
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+    </script>
+
+</body>
+</html>
